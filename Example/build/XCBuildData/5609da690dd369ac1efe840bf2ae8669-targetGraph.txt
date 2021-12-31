@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+ConsoliAds-Tapjoy-Adapter in Pods
+FBSnapshotTestCase in Pods
+Pods-ConsoliAds-Tapjoy-Adapter_Example in Pods, depends on:
+ConsoliAds-Tapjoy-Adapter in Pods (explicit)
+Pods-ConsoliAds-Tapjoy-Adapter_Tests in Pods, depends on:
+FBSnapshotTestCase in Pods (explicit)
+Pods-ConsoliAds-Tapjoy-Adapter_Example in Pods (explicit)

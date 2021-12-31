@@ -1,0 +1,22 @@
+{
+  "name": "ConsoliAds-Tapjoy-Adapter",
+  "version": "0.1.0",
+  "summary": "A short description of ConsoliAds-Tapjoy-Adapter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Wazma Ali/ConsoliAds-Tapjoy-Adapter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wazma Ali": "wazma.ali@consoliads.com"
+  },
+  "source": {
+    "git": "https://github.com/Wazma Ali/ConsoliAds-Tapjoy-Adapter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ConsoliAds-Tapjoy-Adapter/Classes/**/*"
+}

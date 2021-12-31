@@ -1,0 +1,27 @@
+PODS:
+  - ConsoliAds-Tapjoy-Adapter (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ConsoliAds-Tapjoy-Adapter (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ConsoliAds-Tapjoy-Adapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConsoliAds-Tapjoy-Adapter: d027c2c5bb184f00b3ae8ec0ef146bad426ed75e
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 15b366a5ad046a2d0c62addf6b64c61bce91cd26
+
+COCOAPODS: 1.11.2

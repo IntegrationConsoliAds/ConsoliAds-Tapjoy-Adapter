@@ -1,0 +1,6 @@
+framework module Pods_ConsoliAds_Tapjoy_Adapter_Tests {
+  umbrella header "Pods-ConsoliAds-Tapjoy-Adapter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
