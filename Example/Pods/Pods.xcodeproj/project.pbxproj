@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,11 +32,11 @@
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		B7C0A9F955EABB677DC08AE7AFF1805D /* Pods-ConsoliAds-Tapjoy-Adapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE63F825A29BBF332ADEF80C8989E2 /* Pods-ConsoliAds-Tapjoy-Adapter_Tests-dummy.m */; };
-		BA81E672277F1C1B006DD201 /* ConsoliAdsTapjoyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA81E671277F1C1B006DD201 /* ConsoliAdsTapjoyAdapter.framework */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		CDEE76C63282F451BA66F3339FC9DA3B /* Pods-ConsoliAds-Tapjoy-Adapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D441E0336948C0265306BAF7551F3C /* Pods-ConsoliAds-Tapjoy-Adapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC2295E428B8FAB300884654 /* ConsoliAdsTapjoyAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2295E328B8FAB300884654 /* ConsoliAdsTapjoyAdapter.xcframework */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -108,7 +108,6 @@
 		AA9AB6425722E1D9E4D82BEA46D2AF9F /* Pods-ConsoliAds-Tapjoy-Adapter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConsoliAds-Tapjoy-Adapter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BA81E671277F1C1B006DD201 /* ConsoliAdsTapjoyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConsoliAdsTapjoyAdapter.framework; path = "ConsoliAds-Tapjoy-Adapter/ConsoliAdsTapjoyAdapter.framework"; sourceTree = "<group>"; };
 		BB34266F408D22F580FE4925C63F38DF /* Pods-ConsoliAds-Tapjoy-Adapter_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ConsoliAds-Tapjoy-Adapter_Example"; path = Pods_ConsoliAds_Tapjoy_Adapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7C69CEA19B48F47C544A18FE6943B1 /* Pods-ConsoliAds-Tapjoy-Adapter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConsoliAds-Tapjoy-Adapter_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C5F55B9B768B710CCAA94A7012047773 /* ConsoliAds-Tapjoy-Adapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConsoliAds-Tapjoy-Adapter-dummy.m"; sourceTree = "<group>"; };
@@ -124,6 +123,7 @@
 		DC7F7372508635FF4CA991A43BE7B7C7 /* Pods-ConsoliAds-Tapjoy-Adapter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConsoliAds-Tapjoy-Adapter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1696F6AB575A8CBC4681AA389A636D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC2295E328B8FAB300884654 /* ConsoliAdsTapjoyAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConsoliAdsTapjoyAdapter.xcframework; path = "ConsoliAds-Tapjoy-Adapter/ConsoliAdsTapjoyAdapter.xcframework"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,8 +159,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA81E672277F1C1B006DD201 /* ConsoliAdsTapjoyAdapter.framework in Frameworks */,
 				5ED52144419D9496273540EAA54DD1A5 /* Foundation.framework in Frameworks */,
+				FC2295E428B8FAB300884654 /* ConsoliAdsTapjoyAdapter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +181,7 @@
 		1850271E1690045E3979394F5FDD91FA /* ConsoliAds-Tapjoy-Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				BA81E671277F1C1B006DD201 /* ConsoliAdsTapjoyAdapter.framework */,
+				FC2295E328B8FAB300884654 /* ConsoliAdsTapjoyAdapter.xcframework */,
 				21B896709409594D873D32E1C95C1A85 /* Pod */,
 				7FA900C1A958E96554CED9118301C7C3 /* Support Files */,
 			);
@@ -621,7 +621,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Tapjoy-Adapter/ConsoliAds-Tapjoy-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Tapjoy-Adapter/ConsoliAds-Tapjoy-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Tapjoy_Adapter;
 				PRODUCT_NAME = ConsoliAds_Tapjoy_Adapter;
@@ -652,7 +656,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -683,7 +691,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Tapjoy-Adapter_Tests/Pods-ConsoliAds-Tapjoy-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Tapjoy-Adapter_Tests/Pods-ConsoliAds-Tapjoy-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -758,6 +770,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -783,7 +796,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Tapjoy-Adapter/ConsoliAds-Tapjoy-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Tapjoy-Adapter/ConsoliAds-Tapjoy-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Tapjoy_Adapter;
 				PRODUCT_NAME = ConsoliAds_Tapjoy_Adapter;
@@ -813,7 +830,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Tapjoy-Adapter_Example/Pods-ConsoliAds-Tapjoy-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Tapjoy-Adapter_Example/Pods-ConsoliAds-Tapjoy-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -845,7 +866,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -875,7 +900,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Tapjoy-Adapter_Tests/Pods-ConsoliAds-Tapjoy-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Tapjoy-Adapter_Tests/Pods-ConsoliAds-Tapjoy-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -945,8 +974,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -968,7 +999,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Tapjoy-Adapter_Example/Pods-ConsoliAds-Tapjoy-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Tapjoy-Adapter_Example/Pods-ConsoliAds-Tapjoy-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";

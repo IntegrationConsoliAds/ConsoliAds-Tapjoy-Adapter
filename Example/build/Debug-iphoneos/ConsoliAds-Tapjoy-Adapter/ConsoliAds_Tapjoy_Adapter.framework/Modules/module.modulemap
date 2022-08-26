@@ -1,0 +1,6 @@
+framework module ConsoliAds_Tapjoy_Adapter {
+  umbrella header "ConsoliAds-Tapjoy-Adapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

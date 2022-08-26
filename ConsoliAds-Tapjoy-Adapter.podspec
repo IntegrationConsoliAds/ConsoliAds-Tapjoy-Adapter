@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-Tapjoy-Adapter'
-  s.version          = '12.8.1-1.0'
+  s.version          = '12.8.1-1.1'
   s.summary          = 'This pod is used to get Tapjoy adapter for TapjoyAd serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
@@ -28,12 +28,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-s.vendored_frameworks = 'ConsoliAds-Tapjoy-Adapter/ConsoliAdsTapjoyAdapter.framework'
+s.vendored_frameworks = 'ConsoliAds-Tapjoy-Adapter/ConsoliAdsTapjoyAdapter.xcframework'
 s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC"}
 s.frameworks = 'AdSupport','CFNetwork','CoreTelephony','MobileCoreServices','StoreKit'
 s.libraries = 'c++','z'
-s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 s.static_framework = true
 
 end
