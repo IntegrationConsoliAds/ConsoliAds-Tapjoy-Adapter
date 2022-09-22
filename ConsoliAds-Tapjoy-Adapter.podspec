@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-Tapjoy-Adapter'
-  s.version          = '12.8.1-1.1'
+  s.version          = '12.10.0-v14.1.0'
   s.summary          = 'This pod is used to get Tapjoy adapter for TapjoyAd serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
